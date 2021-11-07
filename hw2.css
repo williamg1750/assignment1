@@ -1,0 +1,87 @@
+body {
+  height: 100vh;
+  background-color: lightgrey;
+}
+#navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background-color: black;
+  padding: 25px 25px 50px 25px;
+
+  margin: 0;
+}
+#navbar a {
+  text-decoration: none;
+  padding: 25px 25px 50px 25px;
+  color: white;
+  background-color: black;
+}
+#navbar a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+}
+
+/*iframe*/
+.iframe {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+/**/
+#bottomDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.colorbox {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#hotpink {
+  background-color: hotpink;
+  margin: 0;
+  padding: 0;
+}
+
+#pink {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+#lightpink {
+  background-color: lightpink;
+  margin: 0;
+  padding: 0;
+}
+
+#orangeBt {
+  background-color: orange;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  border: none;
+  margin-top: 50px;
+}
+
+/*footer*/
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 20px 20px 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
